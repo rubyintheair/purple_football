@@ -1,6 +1,6 @@
-class CreateTeams < ActiveRecord::Migration[5.1]
+class CreateGroups < ActiveRecord::Migration[5.1]
   def change
-    create_table :teams do |t|
+    create_table :groups do |t|
       t.string :name
       t.integer :user_id
       t.integer :teammate_id
